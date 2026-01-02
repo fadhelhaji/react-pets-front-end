@@ -1,0 +1,15 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.create-card {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    gap: 5px;
+}
+
+label {
+    width: 200px;
+}

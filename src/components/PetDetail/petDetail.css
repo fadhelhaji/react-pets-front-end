@@ -1,0 +1,36 @@
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.pet-container {
+    display: flex;
+    justify-content: center;
+}
+
+.pet-card {
+    background-color: antiquewhite;
+    padding: 10px;
+    border: solid 2px wheat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.name,
+.age,
+.breed {
+    background-color: whitesmoke;
+    padding: 10px;
+    border: solid 4px wheat;
+}
+
+span {
+    font-size: 20px;
+    font-weight: bolder;
+}
